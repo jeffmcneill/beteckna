@@ -1,0 +1,17 @@
+#!/usr/bin/fontforge
+if ($argc > 1)
+    Open($argv[1])
+    ttfile = $fontname + "Bold"
+    Print("Making ",ttfile)
+    SetFontNames(ttfile)
+    SelectAll()
+    if ($argc > 2)
+	ExpandStroke($2,0,0,0,5)
+    else
+	ExpandStroke(40,0,0,0,5)
+    endif
+    Save(ttfile+".sfd")
+    Close()
+else
+    Print("Usage: $0 font.sfd [width, default 40]")
+endif

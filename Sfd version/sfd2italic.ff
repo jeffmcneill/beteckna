@@ -1,0 +1,33 @@
+#!/usr/bin/fontforge
+if ($argc > 1)
+    Open($argv[1])
+    ttfile = $fontname + "Italic"
+    Print("Making ",ttfile)
+    SetFontNames(ttfile)
+    SelectAll()
+    if ($argc > 2)
+	Skew($2)
+    else
+	Skew(10)
+    endif
+
+    SelectNone()
+    SelectAllInstancesOf("Adieresis", "adieresis", "Udieresis", "udieresis", "odieresis", "Odieresis", "Edieresis", "edieresis", "Idieresis", "idieresis")
+    MoveReference(70, 0, "dieresis", 0xa8)
+    SelectAllInstancesOf("Agrave", "agrave", "Ugrave", "ugrave", "ograve", "Ograve", "Egrave", "egrave", "Igrave", "igrave")
+    MoveReference(70, 0, "grave", 0x60)
+    SelectAllInstancesOf("Aacute", "aacute", "Uacute", "uacute", "oacute", "Oacute", "Eacute", "eacute", "Iacute", "iacute")
+    MoveReference(70, 0, "acute", 0xb4)
+    SelectAllInstancesOf("Acircumflex", "acircumflex", "Ucircumflex", "ucircumflex", "ocircumflex", "Ocircumflex", "Ecircumflex", "ecircumflex", "Icircumflex", "icircumflex", "Ccircumflex", "ccircumflex", "Jcircumflex", "jcircumflex", "Gcircumflex", "gcircumflex")
+    MoveReference(50, 0, "circumflex", 0x5e)
+    SelectAllInstancesOf("Atilde", "atilde", "otilde", "Otilde")
+    MoveReference(50, 0, "tilde", 0x7e)
+    SelectAllInstancesOf("Aring", "aring")
+    MoveReference(70, 0, "degree", 0xb0)
+
+
+    Save(ttfile+".sfd")
+    Close()
+else
+    Print("Usage: $0 font.sfd [italic angle, default 10]")
+endif

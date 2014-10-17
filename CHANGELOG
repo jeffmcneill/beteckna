@@ -1,0 +1,21 @@
+0.4   04/2009	Updated License to GNU GPL version 3
+		Contributions from Alexander Fell:
+		Added euro, umlaut u, referenced glyphs,
+		removed obsolete points, and other fixes
+		listed in detail at http://bugs.debian.org/520503
+		Gürkan Sengün <gurkan@phys.ethz.ch>
+		Changed number 1 into Futura 1
+
+0.3   09/2008	Added german sz, {, |, }
+		Added greek beta and delta
+		Fixed t, z and Z
+		Gürkan Sengün <gurkan@phys.ethz.ch>
+
+0.2   11/2007   Added Italic, Bold and Condensed
+                Fixed directions
+		Added glyphs (spanish punctuaction, tilde, accented letters)
+		Gürkan Sengün <gurkan@linuks.mine.nu>
+
+0.1   05/2007   Geometric sans-serif typeface inspired by Paul Renners
+                popular type, Futura
+		Johan Mattsson <johan@beteckna.se>

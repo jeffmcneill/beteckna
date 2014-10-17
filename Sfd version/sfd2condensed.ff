@@ -1,0 +1,17 @@
+#!/usr/bin/fontforge
+if ($argc > 1)
+    Open($argv[1])
+    ttfile = $fontname + "Condensed"
+    Print("Making ",ttfile)
+    SetFontNames(ttfile)
+    SelectAll()
+    if ($argc > 2)
+	Scale($2,100)
+    else
+	Scale(80,100)
+    endif
+    Save(ttfile+".sfd")
+    Close()
+else
+    Print("Usage: $0 font.sfd [condense, default 80%]")
+endif
