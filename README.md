@@ -1,7 +1,7 @@
 Beteckna
 ========
 
-A geometrical sans serif typeface.
+A geometrical and humanist sans serif typeface family
 
 Designers: see AUTHORS for full attribution
 
