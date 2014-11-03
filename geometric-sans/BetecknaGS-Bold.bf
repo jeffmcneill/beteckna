@@ -2,13 +2,13 @@
 <font>
 <format>1.0</format>
 
-<postscript_name>BetecknaGeometricSansBold</postscript_name>
-<name>BetecknaGeometricSansBold</name>
-<subfamily></subfamily>
+<postscript_name>BetecknaGS-Bold</postscript_name>
+<name>BetecknaGS</name>
+<subfamily>Bold</subfamily>
 <bold>true</bold>
 <italic>false</italic>
-<full_name>BetecknaGeometricSansBold</full_name>
-<unique_identifier>BetecknaGeometricSansBold0.01</unique_identifier>
+<full_name>BetecknaGS Bold</full_name>
+<unique_identifier>BetecknaGS-Bold-0.01</unique_identifier>
 <version>0.01</version>
 <description></description>
 <copyright>Drawn by Johan Mattsson</copyright>
