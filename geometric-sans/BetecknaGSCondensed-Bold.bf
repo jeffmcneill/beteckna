@@ -12,6 +12,7 @@
 <version>0.01</version>
 <description></description>
 <copyright>Drawn by Johan Mattsson</copyright>
+<weight>700</weight>
 
 <horizontal>
 	<top_limit>103.1000000000</top_limit>
