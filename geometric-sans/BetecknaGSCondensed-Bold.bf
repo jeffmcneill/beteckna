@@ -2,13 +2,13 @@
 <font>
 <format>1.0</format>
 
-<postscript_name>BetecknaGeometricSansBoldCondensed</postscript_name>
-<name>BetecknaGeometricSansBoldCondensed</name>
-<subfamily>Condensed</subfamily>
+<postscript_name>BetecknaGSCondensed-Bold</postscript_name>
+<name>BetecknaGSCondensed</name>
+<subfamily>Bold</subfamily>
 <bold>true</bold>
 <italic>false</italic>
-<full_name>BetecknaGeometricSansBoldCondensed</full_name>
-<unique_identifier>BetecknaGeometricSansBoldCondensed 0.01</unique_identifier>
+<full_name>BetecknaGSCondensed Bold</full_name>
+<unique_identifier>BetecknaGSCondensed-Bold-0.01</unique_identifier>
 <version>0.01</version>
 <description></description>
 <copyright>Drawn by Johan Mattsson</copyright>

@@ -2,16 +2,17 @@
 <font>
 <format>1.0</format>
 
-<postscript_name>BetecknaGSItalicCondensed</postscript_name>
-<name>BetecknaGSItalicCondensed</name>
-<subfamily>Condensed</subfamily>
+<postscript_name>BetecknaGSCondensed-Italic</postscript_name>
+<name>BetecknaGSCondensed</name>
+<subfamily>Italic</subfamily>
 <bold>false</bold>
 <italic>true</italic>
-<full_name>BetecknaGSItalicCondensed</full_name>
-<unique_identifier>BetecknaGSItalicCondensed0.01</unique_identifier>
+<full_name>BetecknaGSCondensed Italic</full_name>
+<unique_identifier>BetecknaGSCondensed-Italic-0.01</unique_identifier>
 <version>0.01</version>
 <description></description>
 <copyright>Drawn by Johan Mattsson</copyright>
+<weight>400</weight>
 
 <horizontal>
 	<top_limit>99.6093750000</top_limit>

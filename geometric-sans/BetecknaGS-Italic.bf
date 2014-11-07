@@ -2,16 +2,17 @@
 <font>
 <format>1.0</format>
 
-<postscript_name>BetecknaGeometricSansItalic</postscript_name>
-<name>BetecknaGeometricSansItalic</name>
-<subfamily></subfamily>
+<postscript_name>BetecknaGS-Italic</postscript_name>
+<name>BetecknaGS</name>
+<subfamily>Italic</subfamily>
 <bold>false</bold>
 <italic>true</italic>
-<full_name>BetecknaGeometricSansItalic</full_name>
-<unique_identifier>BetecknaGeometricSansItalic0.01</unique_identifier>
+<full_name>BetecknaGS Italic</full_name>
+<unique_identifier>BetecknaGS-Italic-0.01</unique_identifier>
 <version>0.01</version>
 <description></description>
 <copyright>Drawn by Johan Mattsson</copyright>
+<weight>400</weight>
 
 <horizontal>
 	<top_limit>99.6000000000</top_limit>
