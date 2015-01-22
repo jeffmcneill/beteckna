@@ -1,6 +1,5 @@
 Beteckna
 ========
-[![Gitter](https://badges.gitter.im/Join Chat.svg)](https://gitter.im/jeffmcneill/beteckna?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
 
 A geometrical and humanist sans serif typeface family
 
